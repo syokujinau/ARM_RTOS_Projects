@@ -1,0 +1,21 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+			
+
+int main(void)
+{
+	// 1. Reset the RCC clock config to the default reset state.
+	RCC_DeInit();
+
+	for(;;);
+}
