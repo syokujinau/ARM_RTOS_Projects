@@ -71,7 +71,7 @@ int main(void)
 void vTask1_handler(void *params) {
 
 	while(1){
-		printf("Hello from task 1\n");
+		printf("Hello from task 1");
 	}
 
 }
@@ -80,7 +80,7 @@ void vTask1_handler(void *params) {
 void vTask2_handler(void *params) {
 
 	while(1){
-		printf("Hello from task 2\n");
+		printf("Hello from task 2");
 	}
 
 }
