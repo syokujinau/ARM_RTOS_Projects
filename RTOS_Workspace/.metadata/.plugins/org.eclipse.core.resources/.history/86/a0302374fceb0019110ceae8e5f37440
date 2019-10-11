@@ -55,7 +55,7 @@ int main(void)
 	// set up peripherals
 	prvSetupHardware();
 
-	sprintf(user_msg, "This is hello world application starting\r\n");
+	sprintf(user_msg, "This is hello world application starting\n");
 	printMsg(user_msg);
 
 	// 3. lets create 2 tasks, task-1 and task-2
@@ -89,7 +89,7 @@ int main(void)
 void vTask1_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-1\r\n");
+
 	}
 
 }
@@ -98,7 +98,7 @@ void vTask1_handler(void *params) {
 void vTask2_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-2\r\n");
+
 	}
 
 }

@@ -29,13 +29,6 @@ extern void initialise_monitor_handles();
 #endif
 
 static void prvSetupHardware(void);
-static void prevSetupUart(void);
-
-char msg[100] = "Hello world!";
-
-void printMsg(char *msg);
-
-char user_msg[250];
 
 int main(void)
 {
@@ -52,11 +45,6 @@ int main(void)
 	// 2. update the SystemCoreClock variable
 	SystemCoreClockUpdate();
 
-	// set up peripherals
-	prvSetupHardware();
-
-	sprintf(user_msg, "This is hello world application starting\r\n");
-	printMsg(user_msg);
 
 	// 3. lets create 2 tasks, task-1 and task-2
 	xTaskCreate(
@@ -89,7 +77,7 @@ int main(void)
 void vTask1_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-1\r\n");
+
 	}
 
 }
@@ -98,12 +86,12 @@ void vTask1_handler(void *params) {
 void vTask2_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-2\r\n");
+
 	}
 
 }
 
-static void prevSetupUart(void) {
+static void prvSetupHardware(void) {
 	// peripheral related initialization
 
 	// 1. Enable the UART2 and GPIOA Peripheral clock
@@ -146,28 +134,13 @@ static void prevSetupUart(void) {
 	uart2_init.USART_StopBits = USART_StopBits_1;
 	uart2_init.USART_WordLength = USART_WordLength_8b;
 
+
 	USART_Init(
 			USART2,
 			&uart2_init
 	);
 
-	// 5. Enable the UART2 peripheral
-	USART_Cmd(USART2, ENABLE);
-}
-
-static void prvSetupHardware(void) {
-	// setup UART2
-	prevSetupUart();
-}
-
-void printMsg(char *msg) {
-
-	for(uint32_t i = 0; i < strlen(msg); i++) {
-
-		while(USART_GetFlagStatus(USART2, USART_FLAG_TXE) != SET); // waiting if transmit data register empty flag doesn't set.
-		USART_SendData(USART2, msg[i]);
-
-	}
 
 }
+
 

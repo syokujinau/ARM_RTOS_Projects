@@ -89,7 +89,7 @@ int main(void)
 void vTask1_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-1\r\n");
+
 	}
 
 }
@@ -98,7 +98,7 @@ void vTask1_handler(void *params) {
 void vTask2_handler(void *params) {
 
 	while(1){
-		printMsg("Hello, I'm task-2\r\n");
+
 	}
 
 }
