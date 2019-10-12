@@ -55,6 +55,9 @@ int main(void)
 	printf("Hello semihosting UART GOGOGO\n");
 #endif
 
+	// Enable CYCCNT in DWT_CTRL
+	DWT->CTRL |= (1 << 0);
+
 	// 1. Reset the RCC clock config to the default reset state.
 	// HSI On, PLL Off, system clock = cpu clock = 16MHz
 	RCC_DeInit();
@@ -67,6 +70,11 @@ int main(void)
 
 	sprintf(user_msg, "This is hello world application starting\r\n");
 	printMsg(user_msg);
+
+
+	// SEGGER start Recording
+	SEGGER_SYSVIEW_Conf();
+	SEGGER_SYSVIEW_Start();
 
 	// 3. lets create 2 tasks, task-1 and task-2
 	xTaskCreate(
