@@ -55,7 +55,7 @@ int main(void)
 	printf("Hello semihosting UART GOGOGO\n");
 #endif
 
-	// Enable CYCCNT in DWT_CTRL
+	// Enable CYCCNT in DWT_CTRL for SEGGER
 	DWT->CTRL |= (1 << 0);
 
 	// 1. Reset the RCC clock config to the default reset state.

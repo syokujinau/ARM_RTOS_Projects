@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="USART_WordLength" key="selection"/>
+		<item value="xPort" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="xPort"/>
+			<item value="configUSE_TIMERS"/>
 			<item value="USART_WordLength"/>
 			<item value="USART_StopBits"/>
 			<item value="USART_Parity"/>
 			<item value="USART_Mode"/>
 			<item value="USART_Hardware_Flow_Control"/>
 			<item value="GPIOPuPd_TypeDef"/>
-			<item value="GPIOMode_TypeDef"/>
-			<item value="GPIO_pins_define"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -24,7 +24,7 @@
 		<item value="296" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="338" key="DIALOG_X_ORIGIN"/>
-		<item value="503" key="DIALOG_Y_ORIGIN"/>
+		<item value="1016" key="DIALOG_X_ORIGIN"/>
+		<item value="300" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
