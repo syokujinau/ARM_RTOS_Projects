@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="EXPORT_DIALOG">
-		<item value="0x200136f0" key="Start"/>
-		<item value="0x200156ed" key="End"/>
-		<item value="D:\Workspace\RTOS_Workspace\STM32_UART\SEGGER_mem_dumps\001_helloWorld.SVdat" key="File"/>
+		<item value="0x2001364c" key="Start"/>
+		<item value="0x20015649" key="End"/>
+		<item value="D:\Workspace\RTOS_Workspace\STM32_Project2\SEGGER_mem_dumps\001_proj2.SVdat" key="File"/>
 		<item value="rawbinary" key="SELECTED_EXPORTER"/>
-		<item value="0x200136f0" key="Initial address"/>
+		<item value="0x2001364c" key="Initial address"/>
 	</section>
 </section>

@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="xPort" key="selection"/>
+		<item value="EXTI15_10" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="xPort"/>
-			<item value="configUSE_TIMERS"/>
-			<item value="USART_WordLength"/>
-			<item value="USART_StopBits"/>
-			<item value="USART_Parity"/>
-			<item value="USART_Mode"/>
-			<item value="USART_Hardware_Flow_Control"/>
+			<item value="EXTI15_10"/>
+			<item value="EXTIMode_TypeDef"/>
+			<item value="EXTI_Lines"/>
+			<item value="GPIOMode_TypeDef"/>
 			<item value="GPIOPuPd_TypeDef"/>
+			<item value="GPIOSpeed_TypeDef"/>
+			<item value="GPIO_pins_define"/>
+			<item value="GPIOOType_TypeDef"/>
 		</list>
 		<list key="replacehistory">
 		</list>
