@@ -72,6 +72,7 @@ int main(void)
 	// 5. Start Scheduler
 	vTaskStartScheduler();
 
+
 	for(;;);
 }
 
