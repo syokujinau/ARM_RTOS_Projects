@@ -4,7 +4,7 @@
   * @author  Ac6
   * @version V1.0
   * @date    2018/08/12
-  * @brief   Project4 - vTaskDelay
+  * @brief   Project4 - vTaskDelay: Task 1 print the LED status via UART, and Task 2 toggle the LED every 1000 ms
   ******************************************************************************
 */
 

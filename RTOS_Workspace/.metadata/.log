@@ -1721,3 +1721,9 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-10-21 22:35:21.697
 !MESSAGE Indexed 'STM32_Project4_vTaskDelay' (53 sources, 123 headers) in 2.32 sec: 10,994 declarations; 44,605 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-21 23:15:40.796
+!MESSAGE Indexed 'STM32_Project5_Power_Saving_Idle_Hook' (40 sources, 92 headers) in 1.74 sec: 7,874 declarations; 30,630 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-21 23:16:51.461
+!MESSAGE Indexed 'STM32_Project5_Power_Saving_Idle_Hook' (53 sources, 123 headers) in 1.68 sec: 10,994 declarations; 44,605 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
