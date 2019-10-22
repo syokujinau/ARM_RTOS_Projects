@@ -2,22 +2,26 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="command_queue" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="configMAX_AP"/>
-			<item value="configMAX_API"/>
-			<item value="configMAX"/>
-			<item value="configKER"/>
-			<item value="button_handler"/>
-			<item value="xTaskNotify"/>
-			<item value="BaseType_t xTaskNotifyWait( uint32_t ulBitsToClearOnEntry, uint32_t ulBitsToClearOnExit, uint32_t *pulNotificationValue, TickType_t xTicksToWait )"/>
-			<item value="EXTI15_10"/>
+			<item value="command_queue"/>
+			<item value="COMMAND_NUM"/>
+			<item value="command_buffer"/>
+			<item value="vTask2_cmd_handling"/>
+			<item value="xTaskN"/>
+			<item value="sTaskNo"/>
+			<item value="sTaskNot"/>
+			<item value="sTaskNoti"/>
 		</list>
 		<list key="replacehistory">
+			<item value="vTask2_cmd_handling"/>
+			<item value="vTask1_menu_display"/>
+			<item value="vTask2_handler"/>
+			<item value="vTask1_handler"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
