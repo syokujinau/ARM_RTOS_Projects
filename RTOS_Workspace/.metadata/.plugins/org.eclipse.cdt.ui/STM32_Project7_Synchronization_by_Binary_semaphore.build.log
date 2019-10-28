@@ -1,0 +1,6 @@
+13:10:17 **** Incremental Build of configuration Debug for project STM32_Project7_Synchronization_by_Binary_semaphore ****
+make -j4 all 
+make: Nothing to be done for 'all'.
+
+13:10:18 Build Finished (took 685ms)
+

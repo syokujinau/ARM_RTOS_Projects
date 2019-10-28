@@ -1,5 +1,5 @@
-21:45:12 **** Programming project STM32_Project6_Queue_GPIO_command on chip ****
-"D:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.2810834902734386441.cfg -s "D:\\Workspace\\RTOS_Workspace\\STM32_Project6_Queue_GPIO_command" -s "D:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" -c "program Debug/STM32_Project6_Queue_GPIO_command.elf verify reset " -c shutdown 
+23:32:17 **** Programming project STM32_Project6_Queue_GPIO_command on chip ****
+"D:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.3883176215896158250.cfg -s "D:\\Workspace\\RTOS_Workspace\\STM32_Project6_Queue_GPIO_command" -s "D:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" -c "program Debug/STM32_Project6_Queue_GPIO_command.elf verify reset " -c shutdown 
 Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:48)
 Licensed under GNU GPL v2
 For bug reports, read
@@ -11,7 +11,7 @@ adapter_nsrst_delay: 100
 Info : clock speed 8000 kHz
 Info : STLINK v2.1 JTAG v35 API v2 M26 VID 0x0483 PID 0x374B
 Info : using stlink api v2
-Info : Target voltage: 3.254104
+Info : Target voltage: 3.251511
 Info : Unable to match requested speed 8000 kHz, using 4000 kHz
 Info : Stlink adapter speed set to 4000 kHz
 Info : STM32F411RETx.cpu: hardware has 6 breakpoints, 4 watchpoints
@@ -29,17 +29,17 @@ Info : device id = 0x10006431
 Info : flash size = 512kbytes
 target halted due to breakpoint, current mode: Thread 
 xPSR: 0x61000000 pc: 0x20000046 msp: 0x20020000
-wrote 49152 bytes from file Debug/STM32_Project6_Queue_GPIO_command.elf in 1.691376s (28.379 KiB/s)
+wrote 49152 bytes from file Debug/STM32_Project6_Queue_GPIO_command.elf in 1.689034s (28.419 KiB/s)
 ** Programming Finished **
 ** Verify Started **
 target halted due to breakpoint, current mode: Thread 
 xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
 target halted due to breakpoint, current mode: Thread 
 xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
-verified 48108 bytes in 0.456737s (102.861 KiB/s)
+verified 48444 bytes in 0.444745s (106.372 KiB/s)
 ** Verified OK **
 ** Resetting Target **
 shutdown command invoked
 
-21:45:14 Build Finished (took 2s.754ms)
+23:32:21 Build Finished (took 3s.80ms)
 

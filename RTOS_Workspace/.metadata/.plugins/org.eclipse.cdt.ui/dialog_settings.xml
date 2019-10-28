@@ -3,7 +3,7 @@
 	<item value="${workspace_loc:/${ProjName}/Third-Party/SEGGER/SEGGER}" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
 		<item value="180" key="size.height"/>
-		<item value="714" key="size.width"/>
+		<item value="977" key="size.width"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>

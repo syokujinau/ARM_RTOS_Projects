@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32_Project6_Synchronization_by_Binary_semaphore&apos; to &apos;STM32_Project7_Synchronization_by_Binary_semaphore&apos;" description="Rename resource &apos;STM32_Project6_Synchronization_by_Binary_semaphore&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/STM32_Project6_Synchronization_by_Binary_semaphore" name="STM32_Project7_Synchronization_by_Binary_semaphore" stamp="1572066485865" updateReferences="true"/>
+</session>

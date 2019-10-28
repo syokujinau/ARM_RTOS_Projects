@@ -1,0 +1,19 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  YC
+  * @version V1.0
+  * @date    2019/08/31
+  * @brief   Event/Interrupt counting and handling by Counting semaphore
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+			
+
+int main(void)
+{
+
+	for(;;);
+}

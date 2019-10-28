@@ -2,24 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="LED status" key="selection"/>
+		<item value="printMsg" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="printmsg"/>
+			<item value="prvSetupSoftwareInterrupt"/>
 			<item value="LED status"/>
 			<item value="led_toggle_stop"/>
 			<item value="uesr_msg"/>
-			<item value="printmsg"/>
 			<item value="usr_msg"/>
 			<item value="led_toggle"/>
 			<item value="led_toggle_start"/>
-			<item value="make_led_off"/>
 		</list>
 		<list key="replacehistory">
-			<item value="user_msg"/>
 			<item value="printMsg"/>
+			<item value="user_msg"/>
 			<item value="uesr_msg"/>
 			<item value="led_toggle_callback"/>
 			<item value="led_off"/>
